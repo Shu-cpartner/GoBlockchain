@@ -96,5 +96,4 @@ func main() {
 	previousHash = blockChain.LastBlock().Hash()
 	blockChain.CreateBlock(2, previousHash)
 	blockChain.Print()
-	blockChain.Print()
 }
